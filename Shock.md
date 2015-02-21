@@ -1,7 +1,7 @@
 Econometric "Shocks" Generated from Smooth Parameter Changes
 ======================================================== 
 author: Schwarzbek
-date: Fri Feb 20 07:47:28 2015 
+date: Fri Feb 20 10:02:15 2015 
 
 Simple things create complex behaviors
 ============================
@@ -10,25 +10,22 @@ Sudden changes in time series are labeled 'shocks' -
  Much effort is expended, often __wasted__ to correlate with events 
 
  - [Granger Causality](http://en.wikipedia.org/wiki/Granger_causality) and active research (good use, see reference) 
-
  - Most stock market "analyses" _i.e. "stocks rose on falling oil prices"_ compared with _"stocks fell on falling oil prices"_ (not so good) 
-
  - Practically any multivariate time-series analysis that claims unexpected results. ("you decide") 
  
-##### Guangzhong Li, James F. Refalo, Lifan Wu, “Causality-in-variance and causality-in mean among European government bond markets,” Applied Financial Economics DOI:10.1080/09603100701735953 
+###### Li, Refalo, & Wu, “Causality-in-variance and causality-in mean among European government bond markets,” Applied Financial Economics DOI:10.1080/09603100701735953 
 
 A Simple Population Model
 =========================================
 ![plot of chunk feigenbaum](Shock-figure/feigenbaum-1.png) 
-Guckenheimer & Holmes, “Nonlinear Oscillations, Dynamical Systems, and Bifurcations of Vector Fields,” Springer Mathematics, Volume 42 
+###### Guckenheimer & Holmes, “Nonlinear Oscillations, Dynamical Systems, and Bifurcations of Vector Fields,” Springer Mathematics, Volume 42 
+
 ***
-
-A simple series, $$x_1 = \mu x_0 ( x_0 + 1 )$$ has a range for $\mu$ where the value bounces between two values forever 
-
+A simple series, $$x_1 = \mu x_0 ( x_0 + 1 )$$ has a range for $\mu$ where the value bounces between two values forever  
 We concatenate these with some induced noise to develop a simple two level model
 
 ++++  
-Kuehn, A mathematical framework for critical transitions: Bifurcations, fast–slow systems and stochastic dynamics,” Physica D  doi:10.1016/j.physd.2011.02.0122011  
+###### Kuehn, A mathematical framework for critical transitions: Bifurcations, fast–slow systems and stochastic dynamics,” Physica D  doi:10.1016/j.physd.2011.02.0122011  
 
 A Feel for the Function
 ====
