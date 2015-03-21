@@ -1,7 +1,7 @@
 Econometric "Shocks" Generated from Smooth Parameter Changes
 ======================================================== 
 author: Schwarzbek
-date: Fri Feb 20 10:02:15 2015 
+date: Sat Feb 28 07:04:18 2015 
 
 Simple things create complex behaviors
 ============================

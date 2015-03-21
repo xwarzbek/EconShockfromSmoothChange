@@ -35,15 +35,8 @@ plot(c(2.8,2.8,3.2,3.2), c(0.4,1,0.4,1), main = "First bifurcation on mu", xlab 
 
 mu <- 2.8
 for(i in 1:299) {
- mu <- mu + i/10000
- if (mu > 4.0) { break()
-      print(i)
-  }
  x <- 0.5
- for ( j in 1:1000) {
-   x <- mu * x * (1 - x)
-# burn through to a stable set  
-  }
+ for ( j in 1:1000) {  x <- mu * x * (1 - x)  }
  for ( k in 1:300) {
    x <- mu * x * (1 - x)
    points(mu, x, pch = ".", col = "blue")
